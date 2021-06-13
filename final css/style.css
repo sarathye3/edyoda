@@ -1,0 +1,66 @@
+#navbar{
+    height: 50px;
+    background-color: white;
+}
+img#logo{
+    margin-top:10px;
+    margin-left: 10px;
+    width: auto;
+    height: 30px;
+}
+nav ul#menuitems{
+    float: right;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+nav ul li{
+    display:inline-block;
+    padding-right:15px ;
+}
+nav ul li a{
+    color: black;
+text-decoration: none;
+}
+nav ul li#buybutton a{
+    font-family:'Poppins', sans-serif; ;
+font-size: 12px;
+font-weight: 600;
+Color: white;
+background-color: rgb(170, 210, 54);
+Padding: 9px 34px;
+border-radius: 4px;
+}
+nav ul li div#onhover{
+    position: absolute;
+    padding: 15px;
+    box-shadow:0 2px 2px #ccc;
+    border-top: 2px solid rgb(170, 210, 54);
+    display: none;
+    background-color:white;
+}
+div#onhover span hr{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+div#onhover span>a{
+    text-decoration: none;
+    padding: 7px;
+    color: black;
+    font-family: 'Poppins', 'sans-serif';
+}
+div#onhover span>a:hover{
+    padding: 8px 7px;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+nav ul li#demopages:hover
+#onhover{
+    display:block;
+}
+#mainimg{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 96vw;
+    max-height: 90vh;
+}
